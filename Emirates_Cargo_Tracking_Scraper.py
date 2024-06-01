@@ -1,7 +1,7 @@
 import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-
+# this is an example id, data corresponding to this may not be available at your time of testing
 tracking_id = "17654016023"
 driver = webdriver.Chrome()
 driver.implicitly_wait(10)
